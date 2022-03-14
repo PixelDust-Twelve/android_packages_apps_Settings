@@ -52,4 +52,9 @@ public class TouchSensitivityPreferenceController extends TogglePreferenceContro
         // debug prop isn't persistent
         return Settings.Secure.getInt(mContext.getContentResolver(), SETTINGS_KEY, 0) == 1;
     }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return 0;
+    }
 }

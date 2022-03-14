@@ -19,4 +19,9 @@ public class ColumbusLowSensitivityPreferenceController extends ColumbusTogglePr
         }
         return super.getAvailabilityStatus();
     }
+
+    @Override
+    public int getSliceHighlightMenuRes() {
+        return 0;
+    }
 }
