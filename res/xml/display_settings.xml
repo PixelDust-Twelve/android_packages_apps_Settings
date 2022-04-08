@@ -113,7 +113,7 @@
             android:summary="@string/summary_placeholder"
             settings:controller="com.android.settings.display.MinRefreshRatePreferenceController" />
 
-        <SwitchPreference
+        <ListPreference
             android:key="peak_refresh_rate"
             android:summary="@string/peak_refresh_rate_summary"
             android:title="@string/peak_refresh_rate_title"
